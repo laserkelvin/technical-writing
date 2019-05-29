@@ -63,7 +63,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   margin-bottom: 0.5cm;
 }
 
@@ -78,12 +78,12 @@ body {
 }
 
 .reveal h2 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   margin-bottom: 0.5cm;
  }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1.2em; }
 
 .reveal h4 {
   font-size: 1em; }
@@ -316,22 +316,19 @@ body {
 }
 
 .container {
-    width: 80%;
-    height: 200px;
-    background: aqua;
+    display: flex;
     margin: auto;
     padding: 10px;
 }
+
 .one {
     width: 15%;
     height: 200px;
-    background: red;
     float: left;
 }
 .two {
     margin-left: 15%;
     height: 200px;
-    background: black;
 }
 
 /*********************************************
@@ -454,7 +451,7 @@ body {
   width:50%;
 }
 
-twocol {
+.twocol {
     display: grid;
     min-height: 100vh;
     min-width: 100%;
@@ -495,5 +492,8 @@ twocol {
 }
 
 .col {
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }

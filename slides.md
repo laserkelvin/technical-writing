@@ -13,12 +13,6 @@ revealOptions:
 	<img src="figures/cfa-logo-transparent.png" width=40%>
 </figure>
 
-<div class="reveal">
-    <div class="footer">
-       <p> This is the footer </p>
-    </div>
-</div>
-
 ---
 
 # Introduction
@@ -48,6 +42,22 @@ foo = bar
 ---
 
 # This is how you begin a new section
+
+---
+
+# This is how you make a table
+
+<div class="contain">
+    <div class="col">
+        - Left Test
+    </div>
+    <div class="col">
+        - Right test
+    </div>
+    <div class="col">
+        - More Right test
+    </div>
+</div>
 
 ---
 
