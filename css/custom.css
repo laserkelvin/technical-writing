@@ -1,0 +1,17 @@
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 20% 5% 30% 30%;
+  grid-template-rows: 500%;
+  grid-template-areas: "header header header header"
+      "sidebar . content content"
+}
+
+.g-h {
+    grid-area: header;
+}
+.g-s {
+    grid-area: sidebar;
+}
+.g-c {
+    grid-area: content
+}
