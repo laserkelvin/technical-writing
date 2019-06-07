@@ -75,10 +75,28 @@ Yes?
 
 # Acknowledgements
 
-<div class="footer">
-    <span class="element">durr</span>
-    <span class="element">@cmmmmsubmm</span>
-    <span class="element">@cmmmmsubmm</span>
+<div class="contain">
+    <div class="col">
+    <figure>
+        <img src="figures/twitter.png" width=10% style="margin:10px 2px">
+        <figcaption>@cmmmsubmm</figcaption>
+    </figure>
+    <hr>
+    <figure>
+        <img src="figures/www.png" width=10%>
+        <figcaption>www.slowfouriertransform.com</figcaption>
+    </figure>
+    <hr>
+    <figure>
+      <img src="figures/Octocat.png" width=10%>
+      <figcaption>@laserkelvin</figcaption>
+    </figure>
+    </div>
+    <div class="col">
+    <hr>
+    <h1>
+        Thank you!
+    </h1>
+    </div>
 </div>
-
 
