@@ -1,7 +1,108 @@
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
+.reveal {
+    max-width: 99%;
+}
+
+.section {
+    max-width: 95%;
+    max-height: 95%;
+}
+
 html {
     font-family: "Work Sans";
-    font-size: ;
+    font-size: 28px;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    word-wrap: break-word;
 }
+
+h1, h2 {
+    font-size: 48px;
+    font-variant: small-caps;
+    max-width: 70%;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+h1::after {
+    content: "";
+    border-bottom: 5px solid black;
+    width: 50%;
+    /* margin: 0 auto; */
+    display: block;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.end-icons {
+    max-width: 100px;
+    height: 100px
+}
+
+.reveal .slides {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.l-multiple {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+}
+
+.reveal section,
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: block;
+  text-align: left;
+  margin: 0 0 0 1em; 
+}
+
+.reveal li {
+    padding-top: 24px;
+}
+
+.reveal section hr {
+    max-width: 60%;
+    margin: 0;
+}
+
+.hljs {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+footer p {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+/* 
+.slides {
+    overflow: scroll !important;
+    pointer-events: auto !important;
+} */

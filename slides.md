@@ -5,6 +5,7 @@ revealOptions:
     transition-speed: 'fast'
     width: '100%'
     height: '100%'
+    center: false
     margin: 0
     minScale: 1
     maxScale: 1
@@ -19,11 +20,12 @@ revealOptions:
 
 ---
 
-<h1 id="title"> Talk Title </h1>
+# Talk Title
 
 ## Conference
-<hr>
+
 ### Kelvin Lee
+
 <figure>
 	<img id="inverted" src="figures/cfa-logo-transparent.png" width=40%>
 </figure>
@@ -31,59 +33,14 @@ revealOptions:
 ---
 
 # Introduction
-<hr>
+
 - Lorem ipsum
 - Talking points
 
 ----
 
-<div class="toc-layout">
-    <div class="box">
-        <h1> Topics </h1>
-        <hr>
-    </div>
-    <div class="box">
-        <div class="box">
-            <h2><span class="faded-text"> Test </span> </h2>
-        </div>
-        <div class="box">
-            <h2><span class="gray-highlight"> Test </span> </h2>
-        </div>
-        <div class="box">
-            <h2><span class="faded-text"> Test </span> </h2>
-        </div>
-    </div>
-</div>
-
-----
-
-<div class="toc-layout">
-
-<div class="box">
-    <h1> Slide Title </h1>
-    <hr>
-    <ul>
-        <li>
-        Talking point
-        </li>
-        <li>
-        More talking points
-        </li>
-    </ul>
-</div>
-
-<div class="box">
-    <figure>
-        <img src="figures/nasa.png" width=40%>
-        <p class="gray-highlight orange-text"> Figure caption </p>
-    </figure>
-</div>
-
-
----
-
 # Showing off some code
-<hr>
+
 ```
 foo = bar
 ```
@@ -122,30 +79,27 @@ Yes?
 
 ---
 
-<div class="container">
-
-<div class="grid header">
-    <h1> Acknowledgements </h1>
-    <hr>
-</div>
-
 <div class="grid sidebar">
     <h1> Thank you! </h1>
 </div>
 
-<div class="grid content">
+<div class="l-multiple">
     <div class="img-frame">
-        <img src="figures/twitter.png" class="end-icons">
+        <img src="figures/twitter.png" class="end-icons stretch">
         <span>@cmmmsubmm</span>
     </div>
     <div class="img-frame">
-        <img src="figures/www.png" class="end-icons">
-        <span>www.slowfouriertransform.com</span>
+        <img src="figures/www.png" class="end-icons stretch">
+        <span>laserkelvin.github.io</span>
     </div>
     <div class="img-frame">
-      <img src="figures/Octocat.png" class="end-icons">
+      <img src="figures/Octocat.png" class="end-icons stretch">
       <span>@laserkelvin</span>
     </div>
 </div>
-</div>
 
+<footer>
+
+Copyright © 2020 Kelvin Lee
+
+</footer>
