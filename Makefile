@@ -1,17 +1,25 @@
 
 MAIN = slides.md
-CSS = css/elegant.css
+CSS = css/chique.css
 SYNTAX = solarized-light
 TEMPLATE = html/base.html
-SCRIPTS = js/menu.js
+SCRIPTS = js/menu.js,js/tableofcontents.js
+
+FLAGS = $(MAIN) --theme $(CSS) --scripts $(SCRIPTS) --highlight-theme $(SYNTAX) \
+		--template $(TEMPLATE)
 
 present:
-	reveal-md $(MAIN) \
-	  --theme $(CSS) \
-	  --scripts $(SCRIPTS) \
-	  --highlight-theme $(SYNTAX) \
-	  -w \
-	  --template $(TEMPLATE)
+	reveal-md $(FLAGS) -w
 
-pdf:
-	$(present) --print slides.pdf
+pdf: 
+	reveal-md $(FLAGS) --print slides.pdf
+
+
+develop: present -w
+
+
+setup:
+	npm -g install reveal-md
+
+clean: .rm *.pdf
+

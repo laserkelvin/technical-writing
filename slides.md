@@ -17,6 +17,12 @@ revealOptions:
     menu:
         side: "left"
         width: "normal"
+    tableofcontents:
+        title: ""
+        position: 2
+        titleTag: "h1"
+        titleTagSelector: "h1, h2, h3"
+        ignoreFirstSlide: true
 
 ---
 
@@ -27,15 +33,25 @@ revealOptions:
 ### Kelvin Lee
 
 <figure>
-	<img id="inverted" src="figures/cfa-logo-transparent.png" width=40% style="padding-top: 10vw">
+	<img class="cfa-logo" src="figures/cfa-logo-transparent.png" width=40%>
 </figure>
 
 ---
 
 # Introduction
 
+<div id="left">
+
 - Lorem ipsum
 - Talking points
+
+</div>
+
+<div id="right">
+
+![placeholder](https://via.placeholder.com/350x150)
+
+</div>
 
 ----
 
@@ -85,15 +101,15 @@ Yes?
 
 <div class="l-multiple">
     <div class="img-frame">
-        <img src="figures/twitter.png" class="end-icons stretch">
+        <img src="figures/twitter.png" class="end-icons">
         <span>@cmmmsubmm</span>
     </div>
     <div class="img-frame">
-        <img src="figures/www.png" class="end-icons stretch">
+        <img src="figures/www.png" class="end-icons">
         <span>laserkelvin.github.io</span>
     </div>
     <div class="img-frame">
-      <img src="figures/Octocat.png" class="end-icons stretch">
+      <img src="figures/Octocat.png" class="end-icons">
       <span>@laserkelvin</span>
     </div>
 </div>

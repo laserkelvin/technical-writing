@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans|Roboto&display=swap');
 
 .reveal {
     max-width: 99%;
@@ -11,7 +11,7 @@
 }
 
 html {
-    font-family: "Work Sans";
+    font-family: "Work Sans", "Roboto", "Helvetica";
     font-size: 1.5vw;
     text-rendering: optimizeLegibility;
     text-align: left;
@@ -50,8 +50,8 @@ p {
 }
 
 .end-icons {
-    max-width: 100px;
-    height: 100px
+    max-width: 100px !important;
+    height: 100px !important
 }
 
 .reveal .slides {
@@ -111,6 +111,37 @@ footer p {
 html {
     font-size: 22px;
 }
+}
+
+.cfa-logo {
+    margin-left: 30vw;
+    padding-top: 5vw;
+}
+
+#left {
+	margin: 0 auto;
+	text-align: left;
+	float: left;
+    z-index:-10;
+    min-width: 40%;
+    max-width: 48%;
+    padding: 5px;
+}
+
+#right {
+	margin: 0 auto;
+	float: left;
+	text-align: left;
+    z-index:-10;
+    min-width: 42%;
+    max-width: 48%;
+    padding: 5px;
+}
+
+.reveal img {
+    width: 40vw;
+    max-width: 90%;
+    height: auto;
 }
 
 /* 
