@@ -27,7 +27,7 @@ revealOptions:
 ### Kelvin Lee
 
 <figure>
-	<img id="inverted" src="figures/cfa-logo-transparent.png" width=40%>
+	<img id="inverted" src="figures/cfa-logo-transparent.png" width=40% style="padding-top: 10vw">
 </figure>
 
 ---
