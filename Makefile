@@ -1,6 +1,6 @@
 
 MAIN = slides.md
-CSS = css/sunset.css
+CSS = css/chique.css
 SYNTAX = solarized-light
 TEMPLATE = html/base.html
 SCRIPTS = js/menu.js,js/tableofcontents.js
