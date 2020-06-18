@@ -23,6 +23,10 @@ h1, h2 {
     letter-spacing: 1.7px;
 }
 
+h3 {
+    font-size: 1.3rem
+}
+
 h1::after {
     content: "";
     border-bottom: 5px solid #ddded9;
@@ -46,4 +50,12 @@ h1::after {
 
 .reveal .hljs {
     font-family: "Space Mono";
+}
+
+.inverted {
+    filter: invert(100%);
+}
+
+.reveal ol {
+    font-size: 1.3rem
 }
