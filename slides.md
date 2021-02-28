@@ -99,7 +99,7 @@ Yes?
     <h1> Thank you! </h1>
 </div>
 
-<div class="l-multiple">
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr">
     <div class="img-frame">
         <img src="figures/twitter.png" class="end-icons">
         <span>@cmmmsubmm</span>
@@ -107,6 +107,10 @@ Yes?
     <div class="img-frame">
         <img src="figures/www.png" class="end-icons">
         <span>laserkelvin.github.io</span>
+    </div>
+    <div class="img-frame">
+      <img src="figures/Octocat.png" class="end-icons">
+      <span>@laserkelvin</span>
     </div>
     <div class="img-frame">
       <img src="figures/Octocat.png" class="end-icons">
